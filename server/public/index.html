@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <script src="vendors/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <title>Weekend 1 Challenge</title>
 </head>
 <body>
-    <h1>Hello Porta</h1>
+    <h1>Salary Calculator</h1>
+    <div id="container">
+        <div id="add">
+            <h2>Add Employee</h2>
+            <div class="inputContainer">
+                <input id="firstName" placeholder="FIRST NAME" type="text"/> 
+                <input id="lastName" placeholder="LAST NAME" type="text"/>
+                <input id="id" placeholder="ID"type="number"/>
+                <input id="title" placeholder="TITLE"type="text"/>
+                <input id="annualSalary" placeholder="ANNUAL SALARY"type="number"/>
+            </div>
+            <div class="submitBtn">
+                <button id="submitBtn">Submit</button>
+            </div>
+        </div>
+        <div id="display">
+            <h2>Employees</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Annual Salary</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="empIn">
+                    
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2 class="monthlyTotalDisplay">Total Monthly: <span id="totalMonthlyOut"></span></h2> 
+        </div>
+    </div>
 </body>
 </html>

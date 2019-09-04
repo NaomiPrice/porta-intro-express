@@ -1,0 +1,95 @@
+
+body {
+    font-family: "Helvetica", Arial, sans-serif;
+    background-color:#f7f9fa;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    background-color: #696a6b;
+    color:#f7f9fa;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+#container {
+    border: 1px solid black;
+    padding: 25px;
+}
+input {
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#submitBtn {
+    display: flex;
+    padding: 5px 15px;
+    background-color:#b2b5b8;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 15px 5px 15px auto;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+thead {
+    background-color: #b2b5b8;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+thead th:nth-child(1) {
+    width: 20%;
+  }
+
+thead th:nth-child(2) {
+width: 20%;
+}
+thead th:nth-child(3) {
+width: 10%;
+}
+thead th:nth-child(4) {
+width: 20%;
+}
+thead th:nth-child(5) {
+width: 18%;
+}
+thead th:nth-child(6) {
+width: 12%;
+}
+
+.warning {
+    background-color: red;
+}
+
+.submitBtn {
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.monthlyTotalDisplay {
+    text-align: right;
+    margin: 15px 5px 15px auto;
+}
+
+.delete {
+    background-color: #b2b5b8;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
